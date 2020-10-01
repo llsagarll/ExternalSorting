@@ -283,6 +283,6 @@ signed main(){
 	}
 	rename(temp[0].c_str(),"output.txt");
 	cout << "------------------------------------------------------\n";
-	cout << "Entire process took a total of: " << float(clock() - begin_time) / CLOCKS_PER_SEC * 1000 << " msec." << endl;
+	cout << "Entire process took a total of: " << float(clock() - begin_time) / CLOCKS_PER_SEC * 1000 << " msec." << endl;//used to calculate the time of the code.
 	cout << "------------------------------------------------------\n";
 }
