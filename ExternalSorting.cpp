@@ -8,6 +8,7 @@
 #include <cmath>
 #include <numeric>
 #include <ctime>
+#include <bits/stdc++.h>
 
 #define int long long int
 
